@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../components/Nav'
 
 function Home() {
   return (
     <div className='text-[30px]'>
-      <h1>Home page</h1>
+      <Nav/>
     </div>
   )
 }
