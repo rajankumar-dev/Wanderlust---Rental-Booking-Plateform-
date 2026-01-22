@@ -2,7 +2,7 @@ import genToken from "../config/token.js";
 import User from "../model/user.model.js";
 import bcrypt from "bcryptjs";
 
-export const sighUp = async (req, res) => {
+export const signUp = async (req, res) => {
   try {
     let { name, email, password } = req.body;
     let existUser = await User.findOne({ email });
@@ -23,6 +23,7 @@ export const sighUp = async (req, res) => {
     return res.status(500).json({ message: `sighup error ${error}` });
   }
 };
+
 export const login = async (req, res) => {
   try {
     let { email, password } = req.body;
@@ -49,6 +50,7 @@ export const login = async (req, res) => {
     return res.status(500).json({ message: `login error ${error}` });
   }
 };
+
 export const logOut = async (req, res) => {
   try {
     res.clearCookie("token");
