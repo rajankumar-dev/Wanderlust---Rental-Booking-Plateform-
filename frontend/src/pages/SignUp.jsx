@@ -1,12 +1,9 @@
 import React, { useContext, useState } from "react";
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
-import { useNavigate } from "react-router-dom";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import { authDataContext } from "../Context/AuthContext";
-import { userDataContext } from "../Context/UserContext";
-import { toast } from "react-toastify";
 
 function SignUp() {
   let [show, setShow] = useState(false);
@@ -42,6 +39,7 @@ function SignUp() {
       toast.error("Somethings went wrong");
     }
   };
+
   return (
     <div className="w-[100vw] h-[100vh] flex items-center justify-center relative">
       <div
