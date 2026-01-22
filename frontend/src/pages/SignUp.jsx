@@ -1,15 +1,18 @@
 import React, { useContext, useState } from "react";
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
-import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
+import { FaArrowLeftLong } from "react-icons/fa6";
+import axios from "axios";
 import { authDataContext } from "../Context/AuthContext";
+// import { userDataContext } from "../Context/UserContext";
+import { toast } from "react-toastify";
 
 function SignUp() {
   let [show, setShow] = useState(false);
   let navigate = useNavigate();
   let { serverUrl } = useContext(authDataContext);
-  let { userData, setUserData } = useContext(userDataContext);
+  //   let { userData, setUserData } = useContext(userDataContext);
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
