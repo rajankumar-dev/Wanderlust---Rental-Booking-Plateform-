@@ -1,13 +1,13 @@
 import React, { useContext, useState } from "react";
 import { GiConfirmed } from "react-icons/gi";
-import { bookingDataContext } from "../Context/BookingContext";
+import { bookingDataContext } from "../context/BookingContext";
 
 import { useNavigate } from "react-router-dom";
 import Star from "../Component/Star";
 
-import UserContext, { userDataContext } from "../Context/UserContext";
-import { authDataContext } from "../Context/AuthContext";
-import { listingDataContext } from "../Context/ListingContext";
+import UserContext, { userDataContext } from "../context/UserContext";
+import { authDataContext } from "../context/AuthContext";
+import { listingDataContext } from "../context/ListingContext";
 import axios from "axios";
 
 function Booked() {

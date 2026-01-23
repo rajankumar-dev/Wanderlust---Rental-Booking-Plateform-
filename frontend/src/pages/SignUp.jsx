@@ -4,8 +4,8 @@ import { IoMdEyeOff } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import axios from "axios";
-import { authDataContext } from "../Context/AuthContext";
-import { userDataContext } from "../Context/UserContext";
+import { authDataContext } from "../context/AuthContext";
+import { userDataContext } from "../context/UserContext";
 import { toast } from "react-toastify";
 
 function SignUp() {

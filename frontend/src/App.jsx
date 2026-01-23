@@ -8,7 +8,7 @@ import SignUp from "./pages/SignUp";
 import ListingPage1 from "./pages/ListingPage1";
 import ListingPage2 from "./pages/ListingPage2";
 import ListingPage3 from "./pages/ListingPage3";
-import { userDataContext } from "./Context/UserContext";
+import { userDataContext } from "./context/UserContext";
 import MyListing from "./pages/MyListing";
 import ViewCard from "./pages/ViewCard";
 import MyBooking from "./pages/MyBooking";

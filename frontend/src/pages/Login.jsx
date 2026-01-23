@@ -3,9 +3,9 @@ import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { authDataContext } from "../Context/AuthContext";
+import { authDataContext } from "../context/AuthContext";
 import axios from "axios";
-import { userDataContext } from "../Context/UserContext";
+import { userDataContext } from "../context/UserContext";
 import { toast } from "react-toastify";
 
 function Login() {

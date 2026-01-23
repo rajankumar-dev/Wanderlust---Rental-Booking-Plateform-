@@ -13,7 +13,7 @@ import { IoBedOutline } from "react-icons/io5";
 import { FaTreeCity } from "react-icons/fa6";
 import { BiBuildingHouse } from "react-icons/bi";
 import { useContext } from "react";
-import { listingDataContext } from "../Context/ListingContext";
+import { listingDataContext } from "../context/ListingContext";
 
 function ListingPage2() {
   let navigate = useNavigate();

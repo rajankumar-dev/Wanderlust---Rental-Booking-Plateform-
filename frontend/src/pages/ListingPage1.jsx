@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { listingDataContext } from "../Context/ListingContext";
+import { listingDataContext } from "../context/ListingContext";
 
 function ListingPage1() {
   let navigate = useNavigate();

@@ -1,13 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { listingDataContext } from "../Context/ListingContext";
-import { userDataContext } from "../Context/UserContext";
+import { listingDataContext } from "../context/ListingContext";
+import { userDataContext } from "../context/UserContext";
 import { RxCross2 } from "react-icons/rx";
 import axios from "axios";
-import { authDataContext } from "../Context/AuthContext";
+import { authDataContext } from "../context/AuthContext";
 import { FaStar } from "react-icons/fa";
-import { bookingDataContext } from "../Context/BookingContext";
+import { bookingDataContext } from "../context/BookingContext";
 import { toast } from "react-toastify";
 
 function ViewCard() {

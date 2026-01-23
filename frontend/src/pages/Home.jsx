@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Nav from "../Component/Nav";
 
 import Card from "../Component/Card";
-import { listingDataContext } from "../Context/ListingContext";
+import { listingDataContext } from "../context/ListingContext";
 
 function Home() {
   let { listingData, setListingData, newListData } =

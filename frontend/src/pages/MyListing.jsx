@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { userDataContext } from "../Context/UserContext";
+import { userDataContext } from "../context/UserContext";
 import Card from "../Component/Card";
 
 function MyListing() {
