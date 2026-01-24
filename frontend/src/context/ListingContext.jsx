@@ -124,14 +124,12 @@ function ListingContext({ children }) {
         withCredentials: true,
       });
 
-      console.log("🔥 listings from API:", result.data.listings);
+      console.log("🔥 listings from API:", result.data);
+      console.log("isArray:", Array.isArray(result.data));
 
-      const listings = Array.isArray(result.data)
-        ? result.data
-        : result.data?.listings || [];
-
-      setListingData(listings);
-      setNewListData(listings);
+      // ✅ BACKEND RETURNS ARRAY
+      setListingData(result.data);
+      setNewListData(result.data);
     } catch (error) {
       console.log("❌ listing fetch error", error);
       setListingData([]);
