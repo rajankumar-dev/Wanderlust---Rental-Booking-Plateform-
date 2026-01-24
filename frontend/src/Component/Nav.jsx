@@ -45,18 +45,14 @@ function Nav() {
       console.log(error);
     }
   };
-
   const handleCategory = (category) => {
     setCate(category);
-
-    if (category === "trending") {
-      setNewListData([...listingData]); // COPY
+    if (category == "trending") {
+      setNewListData(listingData);
     } else {
-      const filtered = listingData.filter((list) => list.category === category);
-      setNewListData(filtered);
+      setNewListData(listingData.filter((list) => list.category == category));
     }
   };
-
   const handleClick = (id) => {
     if (userData) {
       handleViewCard(id);
