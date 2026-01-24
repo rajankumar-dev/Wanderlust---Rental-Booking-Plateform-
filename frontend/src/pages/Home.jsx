@@ -29,9 +29,7 @@ function Home() {
             />
           ))
         ) : (
-          <p className="text-center mt-10 text-gray-500">
-            No listings available
-          </p>
+          <p className="text-xl text-gray-500">No listings available</p>
         )}
       </div>
     </div>
