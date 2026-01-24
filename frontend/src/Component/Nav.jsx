@@ -104,7 +104,7 @@ function Nav() {
             )}
             {userData != null && (
               <span className="w-[30px] h-[30px] bg-[#080808] text-[white] rounded-full flex items-center justify-center">
-                {userData?.name.slice(0, 1)}
+                {userData?.name?.slice(0, 1)}
               </span>
             )}
           </button>
