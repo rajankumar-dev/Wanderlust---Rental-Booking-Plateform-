@@ -1,7 +1,8 @@
 import React, { createContext, useState } from "react";
 export const authDataContext = createContext();
 function AuthContext({ children }) {
-  const serverUrl = import.meta.env.VITE_API_URL;
+  const serverUrl = "https://wanderlust-rental-booking-plateform-ppy9.onrender.com";
+
   let [loading, setLoading] = useState(false);
 
   let value = {
