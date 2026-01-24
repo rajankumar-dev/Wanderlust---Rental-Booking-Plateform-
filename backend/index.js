@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://wanderlust-rental-booking-plateform-ppy9.onrender.com",
+      "https://wanderlust-rental-booking-plateform-v7i2.onrender.com",
     ],
     credentials: true,
   }),
