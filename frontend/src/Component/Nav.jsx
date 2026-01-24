@@ -49,11 +49,15 @@ function Nav() {
   const handleCategory = (category) => {
     setCate(category);
 
+    if (!Array.isArray(listingData)) {
+      setNewListData([]);
+      return;
+    }
+
     if (category === "trending") {
-      setNewListData([...listingData]); // COPY
+      setNewListData(listingData);
     } else {
-      const filtered = listingData.filter((list) => list.category === category);
-      setNewListData(filtered);
+      setNewListData(listingData.filter((list) => list.category === category));
     }
   };
 
