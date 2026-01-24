@@ -124,8 +124,12 @@ function ListingContext({ children }) {
         withCredentials: true,
       });
 
-      setListingData(result.data.listings);
-      setNewListData(result.data.listings);
+      setListingData(
+        Array.isArray(result.data.listings) ? result.data.listings : [],
+      );
+      setNewListData(
+        Array.isArray(result.data.listings) ? result.data.listings : [],
+      );
     } catch (error) {
       console.log(error);
     }
