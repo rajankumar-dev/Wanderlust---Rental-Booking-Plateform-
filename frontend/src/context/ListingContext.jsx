@@ -124,10 +124,14 @@ function ListingContext({ children }) {
         withCredentials: true,
       });
 
+      console.log("🔥 listings from API:", result.data.listings);
+
       setListingData(result.data.listings);
       setNewListData(result.data.listings);
     } catch (error) {
-      console.log(error);
+      console.log("❌ listing fetch error", error);
+      setListingData([]);
+      setNewListData([]);
     }
   };
 
