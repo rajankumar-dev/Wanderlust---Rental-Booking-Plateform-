@@ -1,38 +1,32 @@
 import React, { useContext } from "react";
 import Nav from "../Component/Nav";
+
 import Card from "../Component/Card";
 import { listingDataContext } from "../context/ListingContext";
 
 function Home() {
-  let { newListData } = useContext(listingDataContext);
+  let { listingData, setListingData, newListData } =
+    useContext(listingDataContext);
 
   return (
     <div>
       <Nav />
-
-      <div className="w-[100vw] flex items-center justify-center gap-[25px] flex-wrap mt-[250px] md:mt-[180px]">
-        {Array.isArray(newListData) && newListData.length > 0 ? (
-          newListData.map((list) => (
-            <Card
-              key={list._id}
-              title={list.title}
-              landMark={list.landMark}
-              city={list.city}
-              image1={list.image1}
-              image2={list.image2}
-              image3={list.image3}
-              rent={list.rent}
-              id={list._id}
-              ratings={list.ratings}
-              isBooked={list.isBooked}
-              host={list.host}
-            />
-          ))
-        ) : (
-          <p className="text-center mt-10 text-gray-500">
-            No listings available
-          </p>
-        )}
+      <div className="w-[100vw]  flex items-center justify-center gap-[25px] flex-wrap mt-[250px] md:mt-[180px]">
+        {newListData.map((list) => (
+          <Card
+            title={list.title}
+            landMark={list.landMark}
+            city={list.city}
+            image1={list.image1}
+            image2={list.image2}
+            image3={list.image3}
+            rent={list.rent}
+            id={list._id}
+            ratings={list.ratings}
+            isBooked={list.isBooked}
+            host={list.host}
+          />
+        ))}
       </div>
     </div>
   );
