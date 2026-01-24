@@ -126,8 +126,8 @@ function ListingContext({ children }) {
 
       console.log("🔥 listings from API:", result.data.listings);
 
-      setListingData(result.data.listings);
-      setNewListData(result.data.listings);
+      setListingData(result.data || []);
+      setNewListData(result.data || []);
     } catch (error) {
       console.log("❌ listing fetch error", error);
       setListingData([]);
