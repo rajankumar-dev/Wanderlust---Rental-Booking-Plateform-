@@ -93,18 +93,11 @@ SESSION_SECRET = <Your session secret>
 npm start
 ```
 
-5. **Open in browser:**
-
-```
-http://localhost:3000
-```
-
 ---
 
 ## 🔗 Live Demo
 
-- Website: [Your Live Link]
-- GitHub Repo: [Your GitHub Repo]
+- [ Live Link](https://wanderlust-rental-booking-plateform-v7i2.onrender.com)
 
 ---
 
