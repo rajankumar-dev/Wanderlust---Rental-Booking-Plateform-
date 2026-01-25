@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import Nav from "../Component/Nav";
 import Card from "../Component/Card";
 import { listingDataContext } from "../context/ListingContext";
+import Footer from "./../Component/Footer";
 
 function Home() {
   let { newListData } = useContext(listingDataContext);
@@ -32,6 +33,7 @@ function Home() {
           <p className="text-xl text-gray-500">No listings available</p>
         )}
       </div>
+      <Footer />
     </div>
   );
 }
