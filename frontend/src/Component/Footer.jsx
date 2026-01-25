@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-10 text-gray-600 ml-[3rem] ">
-        © 2024 Wanderlust Rental Booking Platform. All rights reserved.
+        © 2025 Wanderlust Rental Booking Platform. All rights reserved.
       </div>
     </div>
   );
