@@ -26,11 +26,10 @@ Wanderlust is a full-stack rental booking platform enabling users to explore pro
 
 ## 🖥 Screenshots / Demo
 
-> Replace these placeholders with your actual screenshots or GIFs
 
-![Homepage](https://via.placeholder.com/800x400?text=Homepage+Screenshot)
-![Property Listing](https://via.placeholder.com/800x400?text=Property+Listing)
-![Booking & Reviews](https://via.placeholder.com/800x400?text=Booking+and+Reviews)
+![Homepage](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/screenshots/Screenshot%202026-01-23%20150734.png?raw=true)
+![Property Listing](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/screenshots/Screenshot%202026-01-23%20152217.png?raw=true)
+![Booking & Reviews](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/screenshots/Screenshot%202026-01-23%20152440.png?raw=true)
 
 ---
 
