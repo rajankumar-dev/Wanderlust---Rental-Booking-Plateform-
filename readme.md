@@ -1,11 +1,5 @@
 # Wanderlust – Rental Booking Platform 🏡✨
 
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![MERN](https://img.shields.io/badge/MERN-FullStack-blue?style=for-the-badge)](https://mern.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 **A MERN Stack Web Application inspired by Airbnb**
 
 Wanderlust is a full-stack rental booking platform enabling users to explore properties worldwide, view detailed listings, leave reviews, and host their own properties. The project emphasizes **real-world functionality, scalability, and a seamless user experience**.
