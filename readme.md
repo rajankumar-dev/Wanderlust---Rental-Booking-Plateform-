@@ -94,7 +94,6 @@ npm start
 
 The **Wanderlust – Rental Booking Platform** follows a clean and modular full-stack architecture, separating backend and frontend concerns for better scalability and maintainability.
 
-## 📂 Project Structure
 
 ```text
 WANDERLUST – RENTAL BOOKING PLATFORM
