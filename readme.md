@@ -1,4 +1,5 @@
 # Wanderlust – Rental Booking Platform 🏡✨
+![](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/tech-stack.png?raw=true)
 
 **A MERN Stack Web Application inspired by Airbnb**
 
