@@ -178,8 +178,6 @@ WANDERLUST – RENTAL BOOKING PLATFORM
 
 ```
 
-This structured approach ensures clean code organization, scalability, and ease of maintenance.
-
 ## 🔗 Live Demo
 
 - [ Live Link](https://wanderlust-rental-booking-plateform-v7i2.onrender.com)
@@ -198,7 +196,3 @@ This structured approach ensures clean code organization, scalability, and ease 
 
 This project is licensed under the **MIT License**.
 You are free to use, modify, and distribute this project for personal and commercial purposes with proper attribution.
-
-```
-
-```
