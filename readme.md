@@ -63,7 +63,7 @@ This project **strengthened my confidence** as a Full-Stack / MERN Stack Develop
 1. **Clone the repository:**
 
 ```bash
-git clone [YOUR GITHUB REPO LINK]
+git clone https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-.git
 ```
 
 2. **Install dependencies:**
@@ -92,87 +92,78 @@ npm start
 
 The **Wanderlust – Rental Booking Platform** follows a clean and modular full-stack architecture, separating backend and frontend concerns for better scalability and maintainability.
 
+## 📂 Project Structure
+
+```text
 WANDERLUST – RENTAL BOOKING PLATFORM
 │
 ├── backend/
-│ ├── config/
-│ │ ├── cloudinary.js # Cloudinary image configuration
-│ │ ├── db.js # Database connection
-│ │ └── token.js # JWT / token utilities
-│ │
-│ ├── controllers/
-│ │ ├── auth.controller.js # Authentication logic
-│ │ ├── booking.controller.js# Booking operations
-│ │ ├── listing.controller.js# Property listing logic
-│ │ └── user.controller.js # User-related operations
-│ │
-│ ├── middleware/
-│ │ ├── isAuth.js # Authentication middleware
-│ │ └── multer.js # File upload middleware
-│ │
-│ ├── model/
-│ │ ├── booking.model.js # Booking schema
-│ │ ├── listing.model.js # Property listing schema
-│ │ └── user.model.js # User schema
-│ │
-│ ├── routes/
-│ │ ├── auth.route.js # Auth routes
-│ │ ├── booking.route.js # Booking routes
-│ │ ├── listing.route.js # Listing routes
-│ │ └── user.route.js # User routes
-│ │
-│ ├── public/ # Static assets
-│ ├── node_modules/
-│ ├── .env # Environment variables
-│ ├── .gitignore
-│ ├── index.js # Backend entry point
-│ ├── package.json
-│ └── package-lock.json
+│   ├── config/
+│   │   ├── cloudinary.js
+│   │   ├── db.js
+│   │   └── token.js
+│   │
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── booking.controller.js
+│   │   ├── listing.controller.js
+│   │   └── user.controller.js
+│   │
+│   ├── middleware/
+│   │   ├── isAuth.js
+│   │   └── multer.js
+│   │
+│   ├── model/
+│   │   ├── booking.model.js
+│   │   ├── listing.model.js
+│   │   └── user.model.js
+│   │
+│   ├── routes/
+│   │   ├── auth.route.js
+│   │   ├── booking.route.js
+│   │   ├── listing.route.js
+│   │   └── user.route.js
+│   │
+│   ├── public/
+│   ├── index.js
+│   └── package.json
 │
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── assets/ # Images & static assets
-│ │ ├── component/
-│ │ │ ├── Card.jsx
-│ │ │ ├── Footer.jsx
-│ │ │ ├── Nav.jsx
-│ │ │ └── Star.jsx
-│ │ │
-│ │ ├── context/
-│ │ │ ├── AuthContext.jsx
-│ │ │ ├── BookingContext.jsx
-│ │ │ ├── ListingContext.jsx
-│ │ │ └── UserContext.jsx
-│ │ │
-│ │ ├── pages/
-│ │ │ ├── Home.jsx
-│ │ │ ├── Login.jsx
-│ │ │ ├── SignUp.jsx
-│ │ │ ├── ListingPage1.jsx
-│ │ │ ├── ListingPage2.jsx
-│ │ │ ├── ViewCard.jsx
-│ │ │ ├── MyListing.jsx
-│ │ │ ├── MyBooking.jsx
-│ │ │ └── Booked.jsx
-│ │ │
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ │
-│ ├── index.html
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── vite.config.js
-│ ├── tailwind.config.js
-│ ├── postcss.config.js
-│ └── eslint.config.js
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── component/
+│   │   │   ├── Card.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Nav.jsx
+│   │   │   └── Star.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx
+│   │   │   ├── BookingContext.jsx
+│   │   │   ├── ListingContext.jsx
+│   │   │   └── UserContext.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── SignUp.jsx
+│   │   │   ├── ListingPage1.jsx
+│   │   │   ├── ListingPage2.jsx
+│   │   │   ├── ViewCard.jsx
+│   │   │   ├── MyListing.jsx
+│   │   │   ├── MyBooking.jsx
+│   │   │   └── Booked.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── index.html
 │
-├── .env
-├── .gitignore
+├── LICENSE
 ├── README.md
-└── readme.md
+└── .gitignore
+
 
 ### 📌 Architecture Overview
 
@@ -201,5 +192,6 @@ This structured approach ensures clean code organization, scalability, and ease 
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the **MIT License**.
 You are free to use, modify, and distribute this project for personal and commercial purposes with proper attribution.
+```
