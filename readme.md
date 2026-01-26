@@ -26,7 +26,6 @@ Wanderlust is a full-stack rental booking platform enabling users to explore pro
 
 ## 🖥 Screenshots / Demo
 
-
 ![Homepage](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/screenshots/Screenshot%202026-01-23%20150734.png?raw=true)
 ![Property Listing](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/screenshots/Screenshot%202026-01-23%20152217.png?raw=true)
 ![Booking & Reviews](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/screenshots/Screenshot%202026-01-23%20152440.png?raw=true)
@@ -93,6 +92,103 @@ npm start
 ```
 
 ---
+
+## 📂 Project Structure
+
+The **Wanderlust – Rental Booking Platform** follows a clean and modular full-stack architecture, separating backend and frontend concerns for better scalability and maintainability.
+
+WANDERLUST – RENTAL BOOKING PLATFORM
+│
+├── backend/
+│ ├── config/
+│ │ ├── cloudinary.js # Cloudinary image configuration
+│ │ ├── db.js # Database connection
+│ │ └── token.js # JWT / token utilities
+│ │
+│ ├── controllers/
+│ │ ├── auth.controller.js # Authentication logic
+│ │ ├── booking.controller.js# Booking operations
+│ │ ├── listing.controller.js# Property listing logic
+│ │ └── user.controller.js # User-related operations
+│ │
+│ ├── middleware/
+│ │ ├── isAuth.js # Authentication middleware
+│ │ └── multer.js # File upload middleware
+│ │
+│ ├── model/
+│ │ ├── booking.model.js # Booking schema
+│ │ ├── listing.model.js # Property listing schema
+│ │ └── user.model.js # User schema
+│ │
+│ ├── routes/
+│ │ ├── auth.route.js # Auth routes
+│ │ ├── booking.route.js # Booking routes
+│ │ ├── listing.route.js # Listing routes
+│ │ └── user.route.js # User routes
+│ │
+│ ├── public/ # Static assets
+│ ├── node_modules/
+│ ├── .env # Environment variables
+│ ├── .gitignore
+│ ├── index.js # Backend entry point
+│ ├── package.json
+│ └── package-lock.json
+│
+├── frontend/
+│ ├── public/
+│ ├── src/
+│ │ ├── assets/ # Images & static assets
+│ │ ├── component/
+│ │ │ ├── Card.jsx
+│ │ │ ├── Footer.jsx
+│ │ │ ├── Nav.jsx
+│ │ │ └── Star.jsx
+│ │ │
+│ │ ├── context/
+│ │ │ ├── AuthContext.jsx
+│ │ │ ├── BookingContext.jsx
+│ │ │ ├── ListingContext.jsx
+│ │ │ └── UserContext.jsx
+│ │ │
+│ │ ├── pages/
+│ │ │ ├── Home.jsx
+│ │ │ ├── Login.jsx
+│ │ │ ├── SignUp.jsx
+│ │ │ ├── ListingPage1.jsx
+│ │ │ ├── ListingPage2.jsx
+│ │ │ ├── ViewCard.jsx
+│ │ │ ├── MyListing.jsx
+│ │ │ ├── MyBooking.jsx
+│ │ │ └── Booked.jsx
+│ │ │
+│ │ ├── App.jsx
+│ │ ├── App.css
+│ │ ├── index.css
+│ │ └── main.jsx
+│ │
+│ ├── index.html
+│ ├── package.json
+│ ├── package-lock.json
+│ ├── vite.config.js
+│ ├── tailwind.config.js
+│ ├── postcss.config.js
+│ └── eslint.config.js
+│
+├── .env
+├── .gitignore
+├── README.md
+└── readme.md
+
+### 📌 Architecture Overview
+
+- **Backend:** Node.js + Express with MVC pattern
+- **Frontend:** React (Vite) with Context API for state management
+- **Database:** MongoDB with Mongoose ODM
+- **Authentication:** JWT, sessions & protected routes
+- **Media Handling:** Cloudinary + Multer
+- **Deployment Ready:** Environment-based configuration
+
+This structured approach ensures clean code organization, scalability, and ease of maintenance.
 
 ## 🔗 Live Demo
 
