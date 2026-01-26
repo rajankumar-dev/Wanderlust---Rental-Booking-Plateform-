@@ -4,6 +4,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![MERN](https://img.shields.io/badge/MERN-FullStack-blue?style=for-the-badge)](https://mern.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **A MERN Stack Web Application inspired by Airbnb**
 
@@ -204,6 +205,7 @@ This structured approach ensures clean code organization, scalability, and ease 
 
 ---
 
-## 🏷️ Tags
+## 📄 License
 
-#WebDevelopment #MERNStack #FullStackDeveloper #NodeJS #ExpressJS #MongoDB #HTML #CSS #JavaScript #StudentProjects #MajorProject #AirbnbClone #Wanderlust #RentalPlatform
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this project for personal and commercial purposes with proper attribution.
