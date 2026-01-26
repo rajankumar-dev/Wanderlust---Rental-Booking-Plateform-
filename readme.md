@@ -1,4 +1,5 @@
 # Wanderlust – Rental Booking Platform 🏡✨
+
 ![](https://github.com/rajankumar-dev/Wanderlust---Rental-Booking-Plateform-/blob/main/frontend/public/tech-stack.png?raw=true)
 
 **A MERN Stack Web Application inspired by Airbnb**
@@ -175,6 +176,8 @@ WANDERLUST – RENTAL BOOKING PLATFORM
 - **Media Handling:** Cloudinary + Multer
 - **Deployment Ready:** Environment-based configuration
 
+```
+
 This structured approach ensures clean code organization, scalability, and ease of maintenance.
 
 ## 🔗 Live Demo
@@ -195,4 +198,7 @@ This structured approach ensures clean code organization, scalability, and ease 
 
 This project is licensed under the **MIT License**.
 You are free to use, modify, and distribute this project for personal and commercial purposes with proper attribution.
+
+```
+
 ```
