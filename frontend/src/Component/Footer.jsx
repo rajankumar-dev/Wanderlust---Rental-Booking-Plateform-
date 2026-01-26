@@ -33,17 +33,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-800 hover:text-gray-900"
-                  >
+                  <Link to="/" className="text-gray-800 hover:text-gray-900">
                     Gulf Shores
                   </Link>
                   <br />
-                  <Link
-                    to="/about"
-                    className="text-gray-500 hover:text-gray-700"
-                  >
+                  <Link to="/" className="text-gray-500 hover:text-gray-700">
                     Holiday rentals
                   </Link>
                 </li>
@@ -71,17 +65,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-800 hover:text-gray-900"
-                  >
+                  <Link to="/" className="text-gray-800 hover:text-gray-900">
                     Santo
                   </Link>
                   <br />
-                  <Link
-                    to="/about"
-                    className="text-gray-500 hover:text-gray-700"
-                  >
+                  <Link to="/" className="text-gray-500 hover:text-gray-700">
                     Flat rentals
                   </Link>
                 </li>
@@ -109,17 +97,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-800 hover:text-gray-900"
-                  >
+                  <Link to="/" className="text-gray-800 hover:text-gray-900">
                     Madrid
                   </Link>
                   <br />
-                  <Link
-                    to="/about"
-                    className="text-gray-500 hover:text-gray-700"
-                  >
+                  <Link to="/" className="text-gray-500 hover:text-gray-700">
                     House rentals
                   </Link>
                 </li>
@@ -147,17 +129,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-800 hover:text-gray-900"
-                  >
+                  <Link to="/" className="text-gray-800 hover:text-gray-900">
                     Manhattan
                   </Link>
                   <br />
-                  <Link
-                    to="/about"
-                    className="text-gray-500 hover:text-gray-700"
-                  >
+                  <Link to="/" className="text-gray-500 hover:text-gray-700">
                     Apartment rentals
                   </Link>
                 </li>
@@ -185,17 +161,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-800 hover:text-gray-900"
-                  >
+                  <Link to="/" className="text-gray-800 hover:text-gray-900">
                     Kansas City
                   </Link>
                   <br />
-                  <Link
-                    to="/about"
-                    className="text-gray-500 hover:text-gray-700"
-                  >
+                  <Link to="/" className="text-gray-500 hover:text-gray-700">
                     Apartment rentals
                   </Link>
                 </li>
@@ -224,7 +194,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/about"
+                    to="/"
                     className="text-gray-800 hover:text-gray-900 hover:underline"
                   >
                     Show more
