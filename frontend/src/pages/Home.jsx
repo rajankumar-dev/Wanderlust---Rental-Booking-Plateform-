@@ -5,14 +5,16 @@ import { listingDataContext } from "../context/ListingContext";
 import Footer from "./../Component/Footer";
 
 function Home() {
-  let { newListData } = useContext(listingDataContext);
+  let { newListData, listingLoading } = useContext(listingDataContext);
 
   return (
     <div>
       <Nav />
 
       <div className="w-[100vw] flex items-center justify-center gap-[25px] flex-wrap mt-[250px] md:mt-[180px]">
-        {Array.isArray(newListData) && newListData.length > 0 ? (
+        {listingLoading ? (
+          <p className="text-xl text-gray-500">Loading listings...</p>
+        ) : Array.isArray(newListData) && newListData.length > 0 ? (
           newListData.map((list) => (
             <Card
               key={list._id}

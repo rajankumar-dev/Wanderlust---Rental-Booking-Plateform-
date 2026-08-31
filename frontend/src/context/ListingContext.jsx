@@ -29,6 +29,7 @@ function ListingContext({ children }) {
   let [newListData, setNewListData] = useState([]);
   let [cardDetails, setCardDetails] = useState(null);
   let [searchData, setSearchData] = useState([]);
+  let [listingLoading, setListingLoading] = useState(true);
 
   let { serverUrl } = useContext(authDataContext);
 
@@ -119,6 +120,8 @@ function ListingContext({ children }) {
 
   // GET ALL LISTING
   const getListing = async () => {
+    setListingLoading(true);
+
     try {
       let result = await axios.get(serverUrl + "/api/listing/get", {
         withCredentials: true,
@@ -127,13 +130,14 @@ function ListingContext({ children }) {
       console.log("🔥 listings from API:", result.data);
       console.log("isArray:", Array.isArray(result.data));
 
-      // ✅ BACKEND RETURNS ARRAY
       setListingData(result.data);
       setNewListData(result.data);
     } catch (error) {
       console.log("❌ listing fetch error", error);
       setListingData([]);
       setNewListData([]);
+    } finally {
+      setListingLoading(false);
     }
   };
 
@@ -183,6 +187,7 @@ function ListingContext({ children }) {
     setDeleting,
     handleSearch,
     searchData,
+    listingLoading,
     setSearchData,
   };
 
